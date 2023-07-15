@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="j.css">
+    <title>Walter White</title>
+    
+    
+  </head>
+ 
+  <body class="ll">
+    <div class = "title">
+        <h1 style="font-size: 40px;">TIC-TAC-TOE</h1>
+    </div>
+
+    <div class = "set">
+        <button class="levels" style="margin-left: -10px;" onclick = "decide(1)">EASY</button>
+        <button class="levels" onclick = "decide(2)">HARD</button>
+        <button class="levels" onclick = "decide(3)">IMPOSSIBLE</button>
+    </div>
+
+    <div class="board">
+        <button class = b  style="margin-left: -10px;" disabled id = "k0"  onclick = "final('k0')">-</button>
+        <button class = b  disabled id = "k1" onclick = "final('k1')">-</button>
+        <button class = b  disabled id = "k2" onclick = "final('k2')">-</button>
+    </div>
+    <div class="board" style="margin-top: 10px;">
+        <button class = b  style="margin-left: -10px;" disabled id = "k3" onclick = "final('k3')">-</button>
+        <button class = b  disabled id = "k4" onclick = "final('k4')">-</button>
+        <button class = b  disabled id = "k5" onclick = "final('k5')">-</button>
+    </div>
+    <div class="board" style="margin-top: 10px;">
+        <button class = b  style="margin-left: -10px;" disabled id = "k6" onclick = "final('k6')">-</button>
+        <button class = b  disabled id = "k7" onclick = "final('k7')">-</button>
+        <button class = b  disabled id = "k8" onclick = "final('k8')">-</button>
+    </div>
+    <div class="res" id = "win" ></div>
+
+    <div class="cont">
+        <div class="score"><p style="font-size: 30px;">X-Score <p id = "x_score" >0</p></p></div>
+        <button class = "re" id="re" onclick="res()">RESTART</button>
+        <div class="score"><p style="font-size: 30px;">O-Score <p id = "o_score">0</p></p></div>
+    </div>
+    
+    
+    <script src="tick.js">
+    </script>
+</body>
+</html>

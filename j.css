@@ -1,0 +1,243 @@
+
+@media only screen and (max-width : 400px)
+{
+    .ll
+    {
+        height: 90%;
+        width : 90%;
+    }
+    .title
+    {
+        height: 90%;
+        width : 90%;
+    }
+    .set
+    {
+        height: 90%;
+        width : 90%;
+    }
+    .levels
+    {
+        height: 90%;
+        width : 90%;
+    }
+    .lev
+    {
+        height: 90%;
+        width : 90%;
+    }
+    .board
+    {
+        height: 90%;
+        width : 90%;
+    }
+    .b
+    {
+        height: 90%;
+        width : 90%;
+    }
+    .res
+    {
+        height: 90%;
+        width : 90%;
+    }
+    .cont
+    {
+        height: 90%;
+        width : 90%;
+    }
+    .score
+    {
+        height: 90%;
+        width : 90%;
+    }
+    .re
+    {
+        height: 90%;
+        width : 90%;
+    }  
+}
+
+
+@media only screen and (max-width : 800px)
+{
+    .ll
+    {
+        height: 90%;
+        width : 90%;
+    }
+    .title
+    {
+        height: 90%;
+        width : 90%;
+    }
+    .set
+    {
+        height: 90%;
+        width : 90%;
+    }
+    .levels
+    {
+        height: 90%;
+        width : 90%;
+    }
+    .lev
+    {
+        height: 90%;
+        width : 90%;
+    }
+    .board
+    {
+        height: 90%;
+        width : 90%;
+    }
+    .b
+    {
+        height: 90%;
+        width : 90%;
+    }
+    .res
+    {
+        height: 90%;
+        width : 90%;
+    }
+    .cont
+    {
+        height: 90%;
+        width : 90%;
+    }
+    .score
+    {
+        height: 90%;
+        width : 90%;
+    }
+    .re
+    {
+        height: 90%;
+        width : 90%;
+    }  
+}
+
+
+.ll
+{
+    background-image: url('set-line-chess-board-game-and-tic-tac-toe-on-seamless-pattern-vector-400-3020987812.jpg');
+}
+
+
+.title
+{
+    border: solid rgb(234, 18, 90);
+    border-style: double;
+    border-width: 15px;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(214, 168, 110);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.set
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.levels
+{
+    border: solid rgb(214, 168, 110);
+    border-radius: 20%;
+    border-width: 5px;
+    display: inline-block;
+    height: 60px;
+    background-color: rgb(234, 18, 90);
+    width: 150px;
+    margin-left: 100px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.levels:focus
+{
+    background-color: rgb(246, 230, 9);
+}
+
+.lev
+{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+
+.board
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.b
+{
+    display: inline-block;
+    border: solid black;
+    background-color:rgb(214, 168, 110);
+    width: 80px;
+    height : 80px;
+    margin-left: 25px;
+    box-sizing: border-box;
+    text-align: center; 
+    font-size: 35px;
+    text-align: center;
+    cursor: default;
+}
+
+.res
+{
+    font-size: 40px;
+    background-color: rgba(146, 225, 68, 0.797);
+    border: solid black;
+    width: 300px;
+    margin-top: 20px;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.cont
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.score
+{
+    margin-right: 100px;
+    border-width: 20px;
+    border: solid rgb(234, 18, 90);
+    display: inline-block;
+    background-color: rgb(214, 168, 110);
+    width: 150px;
+    margin-left: 100px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.re
+{
+    background-color: gray;
+    width: 100px;
+    height: 50px;
+    border: solid rgb(233, 83, 83);
+    border-width: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+}
