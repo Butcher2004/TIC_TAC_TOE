@@ -12,7 +12,7 @@ This is a classic Tic-Tac-Toe game implemented using HTML, CSS, and JavaScript. 
 
 ## Demo
 
-You can play the game online by visiting the following link: [Tic-Tac-Toe Game Demo](https://dgxbjjnzdjmpdszd0lfuyw.on.drv.tw/copy/final.html)
+You can play the game online by visiting the following link: [Tic-Tac-Toe Game](https://dgxbjjnzdjmpdszd0lfuyw.on.drv.tw/copy/final.html)
 
 
 
